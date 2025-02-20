@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.card{
+    box-shadow: black 4px 4px 10px;
+    width: 375px;
+    height: 500px;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    transition-duration: 0.5s;
+    transition-property: all;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: black 8px 8px 20px;
+}
+
+.card img{
+    border: 2px solid black;
+    max-width: 75%;
+    border-radius: 20px;
+}
+
+.card h2{
+    font-family: "Arsenal SC", serif;
+    font-size: 1.7rem;
+}
+
+.card p{
+    font-family: "Caveat", serif;
+    font-size: 1.2rem;
+    font-style: italic;
+    
+}
